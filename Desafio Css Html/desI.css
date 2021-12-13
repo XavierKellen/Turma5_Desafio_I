@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+main, header, footer {
+    width: 100%;
+    font-size: helvetica;
+}
+
+header {
+    height: 40px;
+    background-color: #212121;
+    display: flex;
+   }
+
+
+nav {
+    display: inline-flex;
+    align-items: center;
+}
+
+a {
+    color: #fafafa;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;    
+    padding: 8px 20px;
+    margin: 0 0 0 30px;
+    border-radius: 25px;
+    -moz-border-radius:25px;
+    -webkit-border-radius:25px;
+    -ms-border-radius:25px;
+}
+
+main{
+    height: auto;
+    background-color: #fafafa;
+    display: flex;
+    box-sizing: border-box;
+}
+
+#box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-left: 25%;
+    height: 80vh;
+}
+
+.estante {
+    width: 50%;
+    text-align: justify;
+    padding: 10px;    
+}
+
+.pontilhado {
+    border-right: 2px dotted black;
+}
+
+
+footer {
+    height: 80px;
+    background-color: #212121;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#logo {
+    color: #fafafa;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 5px;
+    margin: 0 0;
+    justify-content: flex-start;
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.home {
+    background-color:#F9A825;
+}
+
+.contato:hover {
+background-color:red;
+}
+
+
+p{
+    width: 100%;
+    height: auto;
+    background-color: #fafafa;
+    color: black;
+    font-family: helvetica;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+}
+
+.txt {
+    width: 90%;
+    height: 30px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+#tiacademy {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: helvetica;
+    height: auto;
+}

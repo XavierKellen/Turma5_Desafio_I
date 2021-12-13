@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    height: 200px;
+    width: 100%;
+    background-image: linear-gradient(#2196f3, #0d47A1);
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 45px;
+}
+
+h2 {
+    display: block;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    width: 100%;
+    height: auto;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style: none;
+    display: flex;
+}
+
+.teste1 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+}
+
+.teste2 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    justify-content: flex-end;
+}
+
+.material-icons {
+    display: flex;
+    margin-top: 65px;
+    background-color: white;
+    border-radius: 50%;
+    color: #0d47A1;
+    font-size: 64px;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+
+main {    
+    box-sizing: border-box;    
+    width: 100%;
+    height: auto;  
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#div-input {            
+    height: 100%;   
+    margin-top: 70px;   
+}
+
+label {
+    display: block;
+    margin-top: 5px;
+    width: auto;
+}
+
+#buscar{
+    cursor: pointer;
+}
+
+.campo, #btnbuscar {
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 16px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+#btnbuscar {
+    display: block;
+    margin-top: 10px;
+    width: 256px;
+    background-color: #3D5AFE; 
+    color: white;
+    border-bottom: 2px solid black;
+}
